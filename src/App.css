@@ -44,6 +44,7 @@
     width: 100%;
   }
 }
+
 .container {
   font-family: "Hammersmith One", sans-serif;
 }
@@ -86,7 +87,7 @@
 }
 
 .carousel {
-  padding-top: 0.5%;
+  padding-top: 6rem;
 }
 
 .login {
