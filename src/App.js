@@ -7,14 +7,13 @@ function App() {
   return (
     <>
       <div className="App App-header">
+        <NavigasiBar />
+        <CarouselWeb />
         <div className="container">
-          <NavigasiBar />
-          <CarouselWeb />
-
           <div className="ucapan">
             <p>Selamat Datang</p>
             <p>Di</p>
-            <p>Perpustakaan AMIKOM</p>
+            <p>Perpustakaan Digital Yogyakarta</p>
           </div>
         </div>
       </div>

@@ -72,6 +72,10 @@
   }
 }
 
+.navbar {
+  width: 100vw;
+}
+
 .logo-amikom {
   width: 45px;
   height: 45px;
@@ -85,19 +89,47 @@
   padding-top: 0.5%;
 }
 
+.login {
+  font-family: "Hammersmith One", sans-serif;
+}
+
 .latar {
   background-color: #85f4ff;
   text-align: center;
   font-family: "Hammersmith One", sans-serif;
-  padding-bottom: 0.1vh;
+  padding: 0.09%;
   color: white;
 }
 
 .image1 {
-  width: 97.9%;
+  width: 60%;
   margin: auto;
 }
 .image2 {
-  width: 90%;
+  width: 60%;
   margin: auto;
+}
+.image3 {
+  width: 80%;
+  margin: auto;
+}
+
+.custom-shape-divider-bottom-1672600219 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1672600219 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+}
+
+.custom-shape-divider-bottom-1672600219 .shape-fill {
+  fill: #b8fff9;
 }
