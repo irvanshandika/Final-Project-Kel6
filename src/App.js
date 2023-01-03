@@ -1,6 +1,7 @@
 import NavigasiBar from "./components/navbar.js";
 import CarouselWeb from "./components/carousel.js";
 import Footer from "./components/footer.js";
+import ListBuku from "./components/group.js";
 import "./App.css";
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
           </div>
         </div>
       </div>
-
+      {/* Daftar Buku */}
+      <ListBuku />
       {/* Footer */}
       <Footer />
     </>

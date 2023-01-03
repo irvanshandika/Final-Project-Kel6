@@ -95,7 +95,7 @@
 }
 
 .latar {
-  background-color: #85f4ff;
+  background-color: #61dafb;
   text-align: center;
   font-family: "Hammersmith One", sans-serif;
   padding: 0.09%;
@@ -107,30 +107,19 @@
   margin: auto;
 }
 .image2 {
-  width: 60%;
+  width: 95%;
   margin: auto;
 }
 .image3 {
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
-.custom-shape-divider-bottom-1672600219 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1672600219 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 99px;
-}
-
-.custom-shape-divider-bottom-1672600219 .shape-fill {
-  fill: #b8fff9;
+/* List Buku */
+.listbuku {
+  background-color: #b8fff9;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* width: 100vh; */
 }
