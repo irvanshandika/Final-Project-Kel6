@@ -31,7 +31,7 @@ function NavigasiBar() {
                   <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
-            <Link className="login" to={"/login"}>
+            <Link className="login text-decoration-none" to={"/login"}>
               Login
             </Link>
             {/* <Nav.Link href="#link" className="login"> */}

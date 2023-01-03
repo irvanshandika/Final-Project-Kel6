@@ -15,7 +15,7 @@ const Login = () => {
                 Email
               </label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="staticEmail" value="email@example.com" />
+                <input type="text" class="form-control" id="staticEmail" />
               </div>
             </div>
             <div class="mb-3 row">

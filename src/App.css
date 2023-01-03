@@ -131,4 +131,10 @@
 
 .login {
   font-family: "Hammersmith One", sans-serif;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 25px;
+  background: #31e1f7;
+  box-shadow: -5px 5px 10px #808080, 5px -5px 10px #ffffff;
 }
