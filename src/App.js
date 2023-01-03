@@ -1,26 +1,23 @@
 import NavigasiBar from "./components/navbar.js";
-import CarouselWeb from "./components/carousel.js";
 import Footer from "./components/footer.js";
-import ListBuku from "./components/group.js";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import MainPage from "./pages/MainPage.js";
+import BlankPage from "./pages/BlankPage.js";
+import Login from "./pages/Login.js";
 
 function App() {
+  console.log(window.location.pathname);
   return (
     <>
-      <div className="App App-header">
-        <NavigasiBar />
-        <CarouselWeb />
-        <div className="container">
-          <div className="ucapan">
-            <p>Selamat Datang</p>
-            <p>Di</p>
-            <p>Perpustakaan Digital Yogyakarta</p>
-          </div>
-        </div>
-      </div>
-      {/* Daftar Buku */}
-      <ListBuku />
-      {/* Footer */}
+      <NavigasiBar />
+      <Routes>
+        <Route path="/">
+          <Route index element={<MainPage />} />
+          <Route path="login" element={<Login />} />
+          <Route path="*" element={<BlankPage />} />
+        </Route>
+      </Routes>
       <Footer />
     </>
   );

@@ -120,6 +120,15 @@
   background-color: #b8fff9;
   display: flex;
   justify-content: center;
+  padding-top: 1vh;
   /* flex-direction: column; */
   /* width: 100vh; */
+}
+.card1 {
+  width: "50rem";
+  border: 1px solid black;
+}
+
+.login {
+  font-family: "Hammersmith One", sans-serif;
 }
