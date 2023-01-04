@@ -5,6 +5,10 @@ import "./App.css";
 import MainPage from "./pages/MainPage.js";
 import BlankPage from "./pages/BlankPage.js";
 import Login from "./pages/Login.js";
+// import Olahraga from "./pages/OlahragaPage.js";
+import BisnisPage from "./pages/BisnisPage.js";
+// import Teknologi from "./pages/TeknologiPage.js";
+// import Perkebunan from "./pages/PerkebunanPage.js";
 
 function App() {
   console.log(window.location.pathname);
@@ -16,6 +20,10 @@ function App() {
           <Route index element={<MainPage />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<BlankPage />} />
+          <Route path="bisnis" element={<BisnisPage />} />
+          {/* <Route path="teknologi" element={<TeknologiPage />} />
+          <Route path="perkebunan" element={<PerkebunanPage />} />
+          <Route path="olahraga" element={<OlahragaPage />} /> */}
         </Route>
       </Routes>
       <Footer />

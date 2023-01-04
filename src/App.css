@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mulish:wght@500&display=swap");
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -73,7 +74,24 @@
   }
 }
 
+.classOlahraga {
+  width: 50vw;
+  height: 30vh;
+}
+.classBisnis {
+  width: 50vw;
+  height: 30vh;
+}
+.classPerkebunan {
+  width: 50vw;
+  height: 30vh;
+}
+.classTeknologi {
+  width: 50vw;
+  height: 30vh;
+}
 .navbar {
+  font-family: "Hammersmith One", sans-serif;
   width: 100vw;
 }
 
@@ -83,7 +101,7 @@
 }
 
 .ucapan {
-  padding-top: 7%;
+  padding-top: 6rem;
 }
 
 .carousel {
@@ -115,6 +133,11 @@
   margin: auto;
 }
 
+.aboutme {
+  color: black;
+  font-family: "Mulish", sans-serif;
+}
+
 /* List Buku */
 .listbuku {
   background-color: #b8fff9;
@@ -128,7 +151,9 @@
   width: "50rem";
   border: 1px solid black;
 }
-
+.loginForm {
+  background-color: #61dafb;
+}
 .login {
   font-family: "Hammersmith One", sans-serif;
   color: black;
@@ -137,4 +162,7 @@
   border-radius: 25px;
   background: #31e1f7;
   box-shadow: -5px 5px 10px #808080, 5px -5px 10px #ffffff;
+}
+.bisnispage {
+  padding-top: 6rem;
 }

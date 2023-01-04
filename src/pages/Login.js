@@ -6,8 +6,8 @@ const Login = () => {
     <>
       <br />
       <br />
-      <div style={{ overflow: "hidden", width: "100vw", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <div style={{ width: "500px" }} className="border p-4 shadow-lg">
+      <div className="loginForm" style={{ overflow: "hidden", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div style={{ width: "500px", backgroundColor: "white" }} className="border p-4 shadow-lg">
           <h1 className="text-center">Silahkan Login</h1>
           <form>
             <div class="mb-3 row">

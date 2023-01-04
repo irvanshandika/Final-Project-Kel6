@@ -17,7 +17,7 @@ function NavigasiBar() {
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav justify-content-end">
-            <Nav className="me-auto" style={{ display: "flex", alignItems: "center " }}>
+            <Nav className="me-auto" style={{ display: "flex", alignItems: "center ", justifyContent: "center" }}>
               <Link to={"/"} style={{ textDecoration: "none", color: "gray" }}>
                 Home
               </Link>
@@ -31,7 +31,7 @@ function NavigasiBar() {
                   <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
               </NavDropdown>
             </Nav>
-            <Link className="login text-decoration-none" to={"/login"}>
+            <Link className="login text-decoration-none text-center" to={"/login"}>
               Login
             </Link>
             {/* <Nav.Link href="#link" className="login"> */}
