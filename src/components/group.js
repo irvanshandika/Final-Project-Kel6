@@ -8,23 +8,23 @@ function ListBuku() {
   const items = [
     {
       title: "Bisnis",
-      image: "https://1.bp.blogspot.com/-HeHlbwYO0Qo/X_U_vpeVAaI/AAAAAAAAAEI/lzTDAOqjJZYhhEWlhWXqHToNh71ll0h5wCLcBGAsYHQ/w320-h180/Communication-skills-in-the-workplace.png",
+      image: "https://media.istockphoto.com/id/1190640204/id/vektor/ilustrasi-vektor-datar-it-bisnis-indonesia-manajemen-perusahaan-analisis-strategi-perusahaan.jpg?s=612x612&w=0&k=20&c=J0gUzSp6-56E_y92doFtIpbwZh8W5czNX3wPQiakN9A=",
       buttonText: "Go somewhere",
       buttonLink: "/bisnis",
       class: "classBisnis",
     },
     {
       title: "Teknologi",
-      image: "https://media.istockphoto.com/id/1276438491/id/vektor/ilustrasi-pendidikan-online-dengan-freelancer-muda-atau-belajar-siswa-di-rumah-menggunakan.jpg?s=612x612&w=0&k=20&c=n-M5K0hVvYloLE8S9T-pRyD-Mmk8jI7-SfuagtrarHQ=",
+      image: "https://media.istockphoto.com/id/1224475365/id/vektor/multitasking-bekerja-dalam-ilustrasi-vektor-datar-karakter-kantor-modern-konsep-abstrak.jpg?s=612x612&w=0&k=20&c=wGYbloCdHS90G01z6y_jF_0r4nHhe8W_Jq9U2Neex1Q=",
       buttonText: "Go somewhere",
       buttonLink: "/teknologi",
       class: "classTeknologi",
     },
     {
-      title: "Perkebunan",
-      image: "https://media.istockphoto.com/id/1282855626/id/vektor/seorang-pemuda-dengan-tanaman-sayuran-rumah-kaca-tema-taman-ilustrasi-vektor-pada-latar.jpg?s=612x612&w=0&k=20&c=LeTUEhq3aJFgqPhVo9i7xFAclJ11zUE-auFRLxi6SRg=",
+      title: "Kesehatan",
+      image: "https://media.istockphoto.com/id/1413193119/id/vektor/wanita-melakukan-yoga.jpg?s=612x612&w=0&k=20&c=jjpuOVldDjub5oUPgXNndgkQ2lxR5JZIuI-BZQ2lviE=",
       buttonText: "Go somewhere",
-      buttonLink: "/perkebunan",
+      buttonLink: "/kesehatan",
       class: "classPerkebunan",
     },
     {
