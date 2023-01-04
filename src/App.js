@@ -5,9 +5,9 @@ import "./App.css";
 import MainPage from "./pages/MainPage.js";
 import BlankPage from "./pages/BlankPage.js";
 import Login from "./pages/Login.js";
-// import Olahraga from "./pages/OlahragaPage.js";
+import OlahragaPage from "./pages/OlahragaPage.js";
 import BisnisPage from "./pages/BisnisPage.js";
-// import Teknologi from "./pages/TeknologiPage.js";
+import TeknologiPage from "./pages/TeknologiPage.js";
 // import Perkebunan from "./pages/KesehatanPage.js";
 
 function App() {
@@ -21,9 +21,9 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="*" element={<BlankPage />} />
           <Route path="bisnis" element={<BisnisPage />} />
-          {/* <Route path="teknologi" element={<TeknologiPage />} />
-          <Route path="perkebunan" element={<KesehatanPage />} />
-          <Route path="olahraga" element={<OlahragaPage />} /> */}
+          <Route path="teknologi" element={<TeknologiPage />} />
+          {/* <Route path="perkebunan" element={<KesehatanPage />} /> */}
+          <Route path="olahraga" element={<OlahragaPage />} />
         </Route>
       </Routes>
       <Footer />

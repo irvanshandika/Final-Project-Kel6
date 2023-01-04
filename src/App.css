@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mulish:wght@500&display=swap");
 
-@media (min-width: 601px) and (max-width: 1080px) {
+@media (min-width: 601px) and (max-width: 993px) {
   /* Aturan CSS untuk layar dengan lebar minimal 601px dan maksimal 992px */
 }
 
@@ -111,7 +111,7 @@
   border: 1px solid black;
 }
 .loginForm {
-  background-color: #61dafb;
+  background-color: #b8fff9;
 }
 .login {
   font-family: "Hammersmith One", sans-serif;
@@ -119,9 +119,32 @@
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 25px;
-  background: #31e1f7;
+  background: #b8fff9;
   box-shadow: -5px 5px 10px #808080, 5px -5px 10px #ffffff;
 }
+
+/* Bisnis Page */
 .bisnispage {
+  background-color: #b8fff9;
+  text-align: center;
   padding-top: 6rem;
+  padding-bottom: 1rem;
+  font-family: "Mulish", sans-serif;
+}
+/* Teknologi Page */
+.teknologipage {
+  background-color: #b8fff9;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Olahraga Page */
+.olahragapage {
+  background-color: #b8fff9;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  font-family: "Mulish", sans-serif;
 }
