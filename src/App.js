@@ -8,7 +8,7 @@ import Login from "./pages/Login.js";
 import OlahragaPage from "./pages/OlahragaPage.js";
 import BisnisPage from "./pages/BisnisPage.js";
 import TeknologiPage from "./pages/TeknologiPage.js";
-// import Perkebunan from "./pages/KesehatanPage.js";
+import KesehatanPage from "./pages/KesehatanPage.js";
 
 function App() {
   console.log(window.location.pathname);
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<BlankPage />} />
           <Route path="bisnis" element={<BisnisPage />} />
           <Route path="teknologi" element={<TeknologiPage />} />
-          {/* <Route path="perkebunan" element={<KesehatanPage />} /> */}
+          <Route path="kesehatan" element={<KesehatanPage />} />
           <Route path="olahraga" element={<OlahragaPage />} />
         </Route>
       </Routes>

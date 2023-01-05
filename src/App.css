@@ -14,7 +14,7 @@
 .App-header {
   background-color: #b8fff9;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: auto;
@@ -103,8 +103,7 @@
   display: flex;
   justify-content: center;
   padding-top: 1vh;
-  /* flex-direction: column; */
-  /* width: 100vh; */
+  padding-bottom: 10vh;
 }
 .card1 {
   width: "50rem";
@@ -147,4 +146,18 @@
   padding-top: 6rem;
   padding-bottom: 1rem;
   font-family: "Mulish", sans-serif;
+}
+
+/* Kesehatan Page */
+.kesehatanpage {
+  background-color: #b8fff9;
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Team */
+.team {
+  color: black;
 }
