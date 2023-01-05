@@ -5,6 +5,10 @@
   /* Aturan CSS untuk layar dengan lebar minimal 601px dan maksimal 992px */
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   font-family: "Hammersmith One", sans-serif;
 }
