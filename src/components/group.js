@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
 import Olahraga from "../olahraga.jpg";
@@ -38,7 +38,8 @@ function ListBuku() {
   return (
     <div className="listbuku">
       <Card style={{ width: "50rem", display: "flex", backgroundColor: "transparent" }}>
-        <Row style={{ display: "flex" }}>
+        {/* style={{ display: "flex" }} */}
+        <Row>
           {items.map((item) => {
             return (
               <Col md={6}>
