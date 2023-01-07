@@ -45,7 +45,9 @@ function NavigasiBar() {
               </NavDropdown>
             </Nav>
             <Link className="login text-decoration-none text-center" to={"/login"}>
-              Login
+              <button type="button" class="btn">
+                Login
+              </button>
             </Link>
             {/* <Nav.Link href="#link" className="login"> */}
             {/* </Nav.Link> */}

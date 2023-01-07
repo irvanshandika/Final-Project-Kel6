@@ -110,11 +110,8 @@ body {
 .login {
   font-family: "Hammersmith One", sans-serif;
   color: black;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 25px;
-  background: #b8fff9;
-  box-shadow: -5px 5px 10px #808080, 5px -5px 10px #ffffff;
+  border-radius: 30%;
+  background-color: #b8fff9;
 }
 
 /* Bisnis Page */
@@ -186,4 +183,12 @@ body {
 }
 .border7 {
   border-radius: 100%;
+}
+.feedback {
+  text-align: center;
+  background-color: #b8fff9;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
