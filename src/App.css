@@ -161,6 +161,8 @@ body {
 }
 .teampage {
   text-align: center;
+  display: flexbox;
+  justify-content: space-between;
   padding-top: 6rem;
   background-color: #b8fff9;
 }
