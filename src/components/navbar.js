@@ -22,13 +22,26 @@ function NavigasiBar() {
                 Home
               </Link>
               <NavDropdown title="Daftar Buku" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Bisnis</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Teknologi</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Perkebunan</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Olahraga</NavDropdown.Item>
-                {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
+                <NavDropdown.Item>
+                  <Link className="navBisnis" style={{ textDecoration: "none", color: "black" }} to={"/bisnis"}>
+                    Bisnis
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link className="navTeknologi" style={{ textDecoration: "none", color: "black" }} to={"/teknologi"}>
+                    Teknologi
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link className="navKesehatan" style={{ textDecoration: "none", color: "black" }} to={"/kesehatan"}>
+                    Kesehatan
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link className="navOlahraga" style={{ textDecoration: "none", color: "black" }} to={"/olahraga"}>
+                    Olahraga
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Link className="login text-decoration-none text-center" to={"/login"}>

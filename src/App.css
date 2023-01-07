@@ -28,17 +28,8 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .classOlahraga {
-  width: 50vw;
+  width: 100vw;
   height: 32.5vh;
 }
 .classBisnis {
@@ -162,6 +153,35 @@ body {
 }
 
 /* Team */
+.ourteam {
+  color: black;
+}
 .team {
   color: black;
+}
+.teampage {
+  text-align: center;
+  padding-top: 6rem;
+  background-color: #b8fff9;
+}
+.adminpage {
+  text-align: center;
+}
+.border1 {
+  border-radius: 100%;
+}
+.border2 {
+  border-radius: 100%;
+}
+.border3 {
+  border-radius: 100%;
+}
+.border4 {
+  border-radius: 100%;
+}
+.border6 {
+  border-radius: 100%;
+}
+.border7 {
+  border-radius: 100%;
 }

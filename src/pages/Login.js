@@ -26,7 +26,8 @@ const Login = () => {
                 <input type="password" class="form-control" id="inputPassword" />
               </div>
             </div>
-            <div style={{ width: "100%", height: "50", display: "flex", justifyContent: "flex-end" }}>
+            {/* <div style={{ width: "100%", height: "50", display: "flex", justifyContent: "flex-start", backgroundColor: "transparent" }}></div> */}
+            <div style={{ width: "100%", height: "50", display: "flex", justifyContent: "space-between" }}>
               <Button>Masuk</Button>
             </div>
           </form>
