@@ -60,9 +60,9 @@ function TeamPage() {
           <Col xs={12} md={4}>
             <div data-aos="zoom-in">
               <Figure>
-                <Figure.Image className="border4" width={200} alt="Dhuta Adzikkira Subroto" src={Foto1} />
+                <Figure.Image className="border4" width={200} alt="Dhuta Azikkira Subroto" src={Foto1} />
                 <Figure.Caption>
-                  <h4>Dhuta Adzikkira Subroto</h4>
+                  <h4>Dhuta Azikkira Subroto</h4>
                   <p>Backend Developer</p>
                 </Figure.Caption>
               </Figure>

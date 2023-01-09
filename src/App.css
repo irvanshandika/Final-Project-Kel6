@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mulish:wght@500&display=swap");
 
-@media (min-width: 601px) and (max-width: 993px) {
-  /* Aturan CSS untuk layar dengan lebar minimal 601px dan maksimal 992px */
+@media only screen and (max-width: 600px) {
+  .carousel {
+    width: 105%;
+    margin: auto;
+  }
 }
 
 body {
@@ -149,13 +152,6 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-/* Team */
-.ourteam {
-  color: black;
-}
-.team {
-  color: black;
-}
 .teampage {
   text-align: center;
   display: flexbox;
@@ -163,9 +159,7 @@ body {
   padding-top: 6rem;
   background-color: #b8fff9;
 }
-.adminpage {
-  text-align: center;
-}
+
 .border1 {
   border-radius: 100%;
 }
@@ -185,10 +179,6 @@ body {
   border-radius: 100%;
 }
 .feedback {
-  text-align: center;
-  background-color: #b8fff9;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  background-color: #61dafb;
+  color: black;
 }

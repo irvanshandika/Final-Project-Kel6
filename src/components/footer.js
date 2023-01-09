@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FeedBack from "./feedback.js";
 
 class Footer extends React.Component {
   render() {
     return (
       <>
         <div className="latar">
+          <FeedBack />
           <Link className="ourteam text-decoration-none" to={"/teampage"}>
-            OUR TEAM
+            <button className="btn" style={{ backgroundColor: "silver" }}>
+              OUR TEAM
+            </button>
           </Link>
+
           <br />
           <br />
           <p className="text-side text-dark">
