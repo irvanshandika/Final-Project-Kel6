@@ -10,7 +10,6 @@ import BisnisPage from "./pages/BisnisPage.js";
 import TeknologiPage from "./pages/TeknologiPage.js";
 import KesehatanPage from "./pages/KesehatanPage.js";
 import TeamPage from "./components/Team.js";
-import FeedBack from "./components/Contact.js";
 
 function App() {
   console.log(window.location.pathname);
@@ -29,7 +28,6 @@ function App() {
           <Route path="olahraga" element={<OlahragaPage />} />
         </Route>
       </Routes>
-      <FeedBack />
       <Footer />
     </>
   );
