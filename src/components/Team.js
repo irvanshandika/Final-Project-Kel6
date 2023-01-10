@@ -74,7 +74,7 @@ function TeamPage() {
                 <Figure.Image className="border5" width={200} alt="Naufal Rabbani" src={User} />
                 <Figure.Caption>
                   <h4>Naufal Rabbani</h4>
-                  <p>UI/UX Prototype</p>
+                  <p>UI/UX Design</p>
                 </Figure.Caption>
               </Figure>
             </div>
