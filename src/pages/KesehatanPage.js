@@ -6,7 +6,7 @@ const KesehatanPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://noneedmore-001-site1.gtempurl.com/api/books/Kesehatan")
+      .get("https://noneedmore-001-site1.gtempurl.com/api/books/Kesehatan")
       .then((response) => {
         setData(response.data);
       })

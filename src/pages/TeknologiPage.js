@@ -6,7 +6,7 @@ const TeknologiPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://noneedmore-001-site1.gtempurl.com/api/books/Teknologi")
+      .get("https://noneedmore-001-site1.gtempurl.com/api/books/Teknologi")
       .then((response) => {
         setData(response.data);
       })
