@@ -6,7 +6,7 @@ const BisnisPage = () => {
 
   useEffect(() => {
     axios
-      .get("https://localhost:7137/api/books/Bisnis")
+      .get("http://noneedmore-001-site1.gtempurl.com/api/books/Bisnis")
       .then((response) => {
         setData(response.data);
       })

@@ -6,7 +6,7 @@ const OlahragaPage = () => {
 
   useEffect(() => {
     axios
-      .get("https://localhost:7137/api/books/Olahraga")
+      .get("http://noneedmore-001-site1.gtempurl.com/api/books/Olahraga")
       .then((response) => {
         setData(response.data);
       })
