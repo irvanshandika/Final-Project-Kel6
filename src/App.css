@@ -107,15 +107,6 @@ body {
   width: "50rem";
   border: 1px solid black;
 }
-.loginForm {
-  background-color: #b8fff9;
-}
-.login {
-  font-family: "Hammersmith One", sans-serif;
-  color: black;
-  border-radius: 30%;
-  background-color: #b8fff9;
-}
 
 /* Bisnis Page */
 .bisnispage {

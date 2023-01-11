@@ -37,19 +37,14 @@ const TeknologiPage = () => {
                 <img src={item.image} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{item.title}</h5>
-                  <p className="card-text">{item.category}</p>
+                  <p>Author: {item.author}</p>
+                  <p className="card-text">Kategori: {item.category}</p>
+                  <p>Publikasi: {item.publication}</p>
+                  <p>Publisher: {item.publisher}</p>
                 </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
                 <div className="card-body">
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
+                  <a href={item.file} className="card-link">
+                    Download Disini
                   </a>
                 </div>
               </div>
