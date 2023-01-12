@@ -6,7 +6,7 @@ const OlahragaPage = () => {
 
   useEffect(() => {
     axios
-      .get("https://noneedmore-001-site1.gtempurl.com/api/books/Olahraga")
+      .get("https://localhost:7137/api/books/Olahraga")
       .then((response) => {
         setData(response.data);
       })
@@ -17,7 +17,7 @@ const OlahragaPage = () => {
   return (
     <>
       <div className="olahragapage">
-        <h1>Teknologi</h1>
+        <h1>Olahraga</h1>
         <div className="d-flex gap-4 flex-col">
           {data.map((item, index) => {
             // <div key={index}>
@@ -37,19 +37,14 @@ const OlahragaPage = () => {
                 <img src={item.image} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">{item.title}</h5>
-                  <p className="card-text">{item.category}</p>
+                  <p>Author: {item.author}</p>
+                  <p className="card-text">Kategori: {item.category}</p>
+                  <p>Publikasi: {item.publication}</p>
+                  <p>Publisher: {item.publisher}</p>
                 </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
                 <div className="card-body">
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
+                  <a href={item.file} className="card-link">
+                    Download Disini
                   </a>
                 </div>
               </div>
@@ -60,5 +55,4 @@ const OlahragaPage = () => {
     </>
   );
 };
-
 export default OlahragaPage;

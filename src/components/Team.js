@@ -17,7 +17,7 @@ AOS.init();
 
 function TeamPage() {
   return (
-    <div className="teampage">
+    <div className="teampage" id="teampage">
       <h1>Our Team</h1>
       <Container>
         <Row>
@@ -56,7 +56,7 @@ function TeamPage() {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row className="d-flex justify-content-center">
           <Col xs={12} md={4}>
             <div data-aos="zoom-in">
               <Figure>
@@ -92,7 +92,7 @@ function TeamPage() {
           </Col>
           <Col xs={12} md={4}>
             <div data-aos="zoom-in">
-              <Figure>
+              <Figure className="figure7">
                 <Figure.Image className="border7" width={200} alt="Muhammad Daffa Rizqi Syaputra" src={Foto4} />
                 <Figure.Caption>
                   <h4>Muhammad Daffa Rizqi Syaputra</h4>

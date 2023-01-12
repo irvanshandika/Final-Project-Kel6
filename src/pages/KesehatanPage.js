@@ -6,7 +6,7 @@ const KesehatanPage = () => {
 
   useEffect(() => {
     axios
-      .get("https://noneedmore-001-site1.gtempurl.com/api/books/Kesehatan")
+      .get("https://localhost:7137/api/books/Kesehatan")
       .then((response) => {
         setData(response.data);
       })
@@ -17,9 +17,21 @@ const KesehatanPage = () => {
   return (
     <>
       <div className="kesehatanpage">
-        <h1>Bisnis</h1>
+        <h1>Kesehatan</h1>
         <div className="d-flex gap-4 flex-col">
           {data.map((item, index) => {
+            // <div key={index}>
+            //   <Row>
+            //     <Col>
+            //       <h2>{item.title}</h2>
+            //       <h4>{item.author}</h4>
+            //       <img src={item.image} />
+            //       <p>{item.category}</p>
+            //       <p>{item.publication}</p>
+            //       <p>{item.publisher}</p>
+            //     </Col>
+            //   </Row>
+            // </div>
             return (
               <div className="card" style={{ width: "18rem" }} key={index}>
                 <img src={item.image} className="card-img-top" alt="..." />
@@ -31,7 +43,7 @@ const KesehatanPage = () => {
                   <p>Publisher: {item.publisher}</p>
                 </div>
                 <div className="card-body">
-                  <a href="#" className="card-link">
+                  <a href={item.file} className="card-link">
                     Download Disini
                   </a>
                 </div>
@@ -43,5 +55,4 @@ const KesehatanPage = () => {
     </>
   );
 };
-
 export default KesehatanPage;
