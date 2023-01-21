@@ -17,21 +17,9 @@ const BisnisPage = () => {
   return (
     <>
       <div className="bisnispage">
-        <h1>Bisnis</h1>
-        <div className="d-flex gap-4 flex-col">
+        <h1 className="tektext">Bisnis</h1>
+        <div className="jarak d-flex gap-4 flex-col">
           {data.map((item, index) => {
-            // <div key={index}>
-            //   <Row>
-            //     <Col>
-            //       <h2>{item.title}</h2>
-            //       <h4>{item.author}</h4>
-            //       <img src={item.image} />
-            //       <p>{item.category}</p>
-            //       <p>{item.publication}</p>
-            //       <p>{item.publisher}</p>
-            //     </Col>
-            //   </Row>
-            // </div>
             return (
               <div className="card" style={{ width: "18rem" }} key={index}>
                 <img src={item.image} className="card-img-top" alt="..." />

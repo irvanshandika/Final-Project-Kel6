@@ -1,15 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mulish:wght@500&display=swap");
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1200px) {
   .carousel {
-    width: 105%;
+    width: 60%;
     margin: auto;
+  }
+  .login2 {
+    display: flex;
+    justify-content: center;
+  }
+  .login {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .ucapan {
+    padding-top: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
   }
 }
 
 body {
   overflow-x: hidden;
+  max-width: 400vw;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f4eeff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #dcd6f7;
 }
 
 .container {
@@ -52,21 +81,12 @@ body {
   width: 100vw;
 }
 
-.logo-amikom {
-  width: 45px;
-  height: 45px;
-}
-
 .ucapan {
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 
 .carousel {
   padding-top: 6rem;
-}
-
-.login {
-  font-family: "Hammersmith One", sans-serif;
 }
 
 .latar {
@@ -116,6 +136,7 @@ body {
   padding-bottom: 1rem;
   font-family: "Mulish", sans-serif;
 }
+
 /* Teknologi Page */
 .teknologipage {
   background-color: #b8fff9;
@@ -123,6 +144,12 @@ body {
   padding-top: 6rem;
   padding-bottom: 1rem;
   font-family: "Mulish", sans-serif;
+}
+.tektext {
+  font-family: "AcceleratorW01";
+  border-radius: 43px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px #ffffff;
 }
 
 /* Olahraga Page */
@@ -173,8 +200,37 @@ body {
   background-color: #61dafb;
   color: black;
 }
+.logo-amikom {
+  width: 45px;
+  height: 45px;
+}
 /* .figure7 {
   display: flex;
   align-items: center;
   justify-content: center;
 } */
+.searchbar {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: "Mulish", sans-serif;
+}
+.searchinput {
+  width: 400px;
+  border-radius: 25px;
+  background: #ffffff;
+}
+/* .btn-submit {
+  border-radius: 50%;
+} */
+#exampleDataList {
+  width: 50%;
+  border-left: 30%;
+  border-right: 30%;
+}
+.jarak {
+  padding-top: 2rem;
+}
+
+.signin {
+  padding-top: 6rem;
+}

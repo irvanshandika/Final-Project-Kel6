@@ -26,6 +26,7 @@ function App() {
           <Route path="olahraga" element={<OlahragaPage />} />
         </Route>
       </Routes>
+
       <Footer />
     </>
   );

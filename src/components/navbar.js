@@ -1,3 +1,4 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,11 +9,11 @@ import { Link } from "react-router-dom";
 function NavigasiBar() {
   return (
     <>
-      <Navbar className="navbar" fixed="top" bg="light" expand="lg">
+      <Navbar className="navbar fixed-top" bg="light" expand="lg">
         <Container>
           <div className="mr-auto">
             <Navbar.Brand className="ml-auto">
-              <img src={NavLogo} className="logo-amikom"></img> PERPUSTAKAAN DIGITAL
+              <img src={NavLogo} className="logo-amikom" /> PERPUSTAKAAN DIGITAL
             </Navbar.Brand>
           </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,9 +45,6 @@ function NavigasiBar() {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-
-            {/* <Nav.Link href="#link" className="login"> */}
-            {/* </Nav.Link> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
